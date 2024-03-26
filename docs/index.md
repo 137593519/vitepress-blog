@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "晓风残月"
   text: "Stay foolish, Stay hungry"
-  tagline: /斜杠青年/人间清醒/工具控/
+  tagline: /斜杠青年/人间清醒/求知欲/
   image:
     # 首页右边的图片
     src: /avatar.jpg
@@ -25,14 +25,14 @@ hero:
 features:
   - icon: 👨‍💻
     title: Web前端
-    details: 程序猿，国内某互联网企业搬砖，自己偶尔写写小工具（UI-前端-后端）
+    details: 程序猿，国内某互联网企业搬砖，自己偶尔写写小工具（UI+前端+后端）
     link: /column/views/guide
   - icon: 🎮
     title: 游戏控
-    details: 热爱游戏，最喜欢下班来一把紧张刺激的Apex。
+    details: 热爱游戏，最喜欢下班后来一把紧张刺激的Apex
   - icon: 🧩
     title: 斜杆青年
-    details: 热爱一切，喜欢一切，享受一切。
+    details: 热爱一切，喜欢一切，享受一切，对一切饱含好奇心
 
 lastUpdated: true
 ---

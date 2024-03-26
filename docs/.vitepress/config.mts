@@ -1,6 +1,5 @@
 import { defineConfig } from 'vitepress'
 import {  sidebar, nav } from './relaConf';
-import {  } from "./theme";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,8 +14,6 @@ export default defineConfig({
       },
     },
     
-    // logo:'/avatar.jpg',
-
     // https://vitepress.dev/reference/default-theme-config
     nav: nav,
     sidebar: sidebar,
