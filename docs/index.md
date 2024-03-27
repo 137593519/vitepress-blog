@@ -6,6 +6,7 @@ hero:
   name: "晓风残月"
   text: "Stay foolish, Stay hungry"
   tagline: /斜杠青年/人间清醒/求知欲/
+  # bgImage:'https://dmce.top/bg.jpg'
   image:
     # 首页右边的图片
     src: /avatar.jpg
