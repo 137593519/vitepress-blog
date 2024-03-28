@@ -20,14 +20,14 @@ hero:
       link: /column/views/guide
     - theme: alt
       text: 个人成长
-      link: /column/Growing/
+      link: /column/travel/
 
 # 按钮下方的描述
 features:
   - icon: 👨‍💻
     title: Web前端
     details: 程序猿，国内某互联网企业搬砖，自己偶尔写写小工具（UI+前端+后端）
-    link: /column/views/guide
+    #link: /column/views/guide
   - icon: 🎮
     title: 游戏控
     details: 热爱游戏，最喜欢下班后来一把紧张刺激的Apex
