@@ -9,15 +9,27 @@
   --vp-c-purple-lighter: #d2b7e5;
   --vp-c-purple-dark: #a06cd5;
   --vp-c-purple-darker: #9163cb;
-  
-  /* 设置字体颜色 */
-  /* --vp-home-hero-name-color: transparent; */
-  /* --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe, #41d1ff); */
-  
-  /* 设置右图像渐变 */
-  --vp-home-hero-image-background-image: linear-gradient( -45deg, #8e99ee 50%, #ffffff 50% );
-  --vp-home-hero-image-filter: blur(150px);
 
+  // 按钮颜色
+  // --vp-button-brand-border: #0064C8;
+  --vp-button-brand-bg: #2a95e2;
+  --vp-button-brand-hover-bg: #1072b8;
+
+  /* 设置字体颜色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #1072b8,
+    #41d1ff
+  );
+
+  /* 设置右图像渐变 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #8e99ee 50%,
+    #ffffff 50%
+  );
+  --vp-home-hero-image-filter: blur(150px);
 }
 
 /* Color Theme */
@@ -27,4 +39,19 @@
   --vp-c-brand-lighter: var(--vp-c-purple-lighter);
   --vp-c-brand-dark: var(--vp-c-purple-dark);
   --vp-c-brand-darker: var(--vp-c-purple-darker);
+}
+
+.VPHome {
+  .container {
+    .image:hover {
+      transform: rotate(666turn);
+      transition-delay: .3s;
+      transition-property: all;
+      transition-duration: 59s;
+      transition-timing-function: cubic-bezier(0.34, 0, 0.84, 1);
+    }
+    .image-container {
+      transform: none;
+    }
+  }
 }

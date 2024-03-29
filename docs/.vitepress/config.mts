@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import {  sidebar, nav } from './relaConf';
 
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "晓风残月のblog",

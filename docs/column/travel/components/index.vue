@@ -29,16 +29,16 @@ export default {
       map: null,
       dots: [
         {
-          position: [114.29800574894763,30.599445457991475],
+          position: [114.29800574894763, 30.599445457991475],
           text: '武汉-我生活的城市',
-          link:'/column/travel/wuhan'
+          link: '/column/travel/wuhan'
         },
         {
-          position: [	115.67622264800985,30.737311477427692],
+          position: [115.67622264800985, 30.737311477427692],
           text: '英山-我的出生点'
         },
         {
-          position: [	121.43387308979692,31.240550346812213],
+          position: [121.43387308979692, 31.240550346812213],
           text: '上海-第一次去的大城市'
         },
         {
@@ -128,7 +128,7 @@ export default {
     },
 
     creatMark(item) {
-      const { text, position,link } = item
+      const { text, position, link } = item
       const markDom = document.createElement("div");
       // markDom.innerHTML = `<div>🚩</div>`;
       markDom.innerHTML = `
@@ -162,10 +162,6 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-:v-bind .container {
-  max-width: none;
-  width: 100% !important;
-}
 #map-container {
   position: fixed;
   left: 0;
@@ -175,7 +171,7 @@ export default {
 }
 
 :deep(.map_remark) {
-  a{
+  a {
     text-decoration: none;
     color: #333;
   }
@@ -184,12 +180,11 @@ export default {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    
   }
   &:hover .text {
     display: block;
   }
-  .bot{
+  .bot {
     z-index: 1;
   }
   .text {

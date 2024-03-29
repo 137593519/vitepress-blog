@@ -1,7 +1,10 @@
-// 在.vitepress/theme/index.ts文件
-import DefaultTheme from 'vitepress/theme';
-import './custom.css';
+import DefaultTheme from "vitepress/theme";
+import "./custom.scss";
 
 export default {
-  ...DefaultTheme
+  ...DefaultTheme,
+  enhanceApp({ app }) {
+    // register global components
+    app.component("MyGlobalComponent" /* ... */);
+  },
 };
