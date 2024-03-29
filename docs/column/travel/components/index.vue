@@ -47,7 +47,8 @@ export default {
         },
         {
           position: [112.95601336278108, 28.18867605958691],
-          text: '长沙-橘子洲指点江山'
+          text: '长沙-橘子洲指点江山',
+          link: '/column/travel/changsha'
         },
         {
           position: [112.96615558841211, 28.193970430574545],
