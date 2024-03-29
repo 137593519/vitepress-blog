@@ -16,6 +16,22 @@ export const sidebar: DefaultTheme.Sidebar = {
       ]
     },
   ],
+  '/column/travel/': [
+    {
+      
+      text: '城市印象',
+      items: [
+        {
+          text: '武汉',
+          link: '/column/travel/wuhan'
+        },
+        {
+          text: '长沙',
+          link: '/column/travel/changsha',
+        },
+      ]
+    },
+  ],
   '/column/web/': [
     {
       text: '项目踩坑指南',

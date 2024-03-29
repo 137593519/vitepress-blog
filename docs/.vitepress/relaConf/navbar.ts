@@ -9,8 +9,12 @@ export const nav: DefaultTheme.NavItem[] = [
     text: '个人成长',
     items: [
       {
-        text: '南北游记',
+        text: '大江南北游记',
         link: '/column/travel/'
+      },
+      {
+        text: '城市印象',
+        link: '/column/travel/wuhan'
       },
       {
         text: '所思·所想',
