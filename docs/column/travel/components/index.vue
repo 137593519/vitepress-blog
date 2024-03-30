@@ -85,7 +85,7 @@ export default {
           // 底图
           new TileLayer({
             source: new WMTS({
-              url: `http://t{0-6}.tianditu.com/${layerTypeMap[layerType][0]}_${matrixSet}/wmts?tk=${TIANDI_KEY}`,
+              url: `https://t{0-6}.tianditu.gov.cn/${layerTypeMap[layerType][0]}_${matrixSet}/wmts?tk=${TIANDI_KEY}`,
               layer: layerTypeMap[layerType][0],
               matrixSet: matrixSet,
               style: "default",
@@ -103,7 +103,7 @@ export default {
           // 标注
           new TileLayer({
             source: new WMTS({
-              url: `http://t{0-6}.tianditu.com/${layerTypeMap[layerType][1]}_${matrixSet}/wmts?tk=${TIANDI_KEY}`,
+              url: `https://t{0-6}.tianditu.gov.cn/${layerTypeMap[layerType][1]}_${matrixSet}/wmts?tk=${TIANDI_KEY}`,
               layer: layerTypeMap[layerType][1],
               matrixSet: matrixSet,
               style: "default",
