@@ -1,51 +1,48 @@
-import { DefaultTheme } from 'vitepress';
+import { DefaultTheme } from "vitepress";
 export const sidebar: DefaultTheme.Sidebar = {
-  '/column/growing/': [
+  "/column/growing/": [
     {
-      
-      text: '个人成长',
+      text: "个人成长",
       items: [
         // {
         //   text: '南北游记',
         //   link: '/column/travel/',
         // },
         {
-          text: '所思·所想',
-          link: '/column/growing/001我的前半生'
-        }
-      ]
+          text: "所思·所想",
+          link: "/column/growing/001我的前半生",
+        },
+      ],
     },
   ],
-  '/column/travel/': [
+  "/column/travel/": [
     {
-      
-      text: '城市印象',
+      text: "城市印象",
       items: [
         {
-          text: '武汉',
-          link: '/column/travel/wuhan'
+          text: "武汉",
+          link: "/column/travel/wuhan",
         },
         {
-          text: '长沙',
-          link: '/column/travel/changsha',
+          text: "长沙",
+          link: "/column/travel/changsha",
         },
-      ]
+      ],
     },
   ],
-  '/column/web/': [
+  "/column/web/": [
     {
-      text: '项目踩坑指南',
-      link: '/column/web/001项目踩坑指南',
+      text: "大前端demo与案例",
       items: [
         {
-          text: '栈-深拷贝和浅拷贝',
-          link: '/column/web/002文章测试'
+          text: "项目踩坑指南",
+          link: "/column/web/001项目踩坑指南",
         },
         {
-          text: '队列-事件循环',
-          link: '/column/web/003文章测试'
-        }
-      ]
+          text: "大文件分片上传-断点续传",
+          link: "/column/web/002大文件分片上传-断点续传",
+        },
+      ],
     },
-  ]
+  ],
 };

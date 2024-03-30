@@ -23,11 +23,15 @@ export const nav: DefaultTheme.NavItem[] = [
     ]
   },
   {
-    text: '代码美学',
+    text: '大前端',
     items: [
       {
-        text: '大前端',
+        text: '项目踩坑指南',
         link: '/column/web/001项目踩坑指南'
+      },
+      {
+        text: '大文件分片上传-断点续传',
+        link: '/column/web/002大文件分片上传-断点续传'
       }
     ]
   },
