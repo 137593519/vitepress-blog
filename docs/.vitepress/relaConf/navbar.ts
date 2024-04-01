@@ -32,6 +32,10 @@ export const nav: DefaultTheme.NavItem[] = [
       {
         text: '大文件分片上传-断点续传',
         link: '/column/web/002大文件分片上传-断点续传'
+      },
+      {
+        text: '热力图',
+        link: '/column/web/003热力图'
       }
     ]
   },
