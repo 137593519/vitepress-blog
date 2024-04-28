@@ -13,10 +13,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vueuse/core": "^10.9.0",
     "leaflet": "^1.9.4",
     "leaflet.heat": "^0.2.0",
     "ol": "^9.1.0",
     "sass": "^1.72.0",
     "vitepress": "^1.0.1"
+  },
+  "devDependencies": {
+    "naive-ui": "^2.38.1"
   }
 }

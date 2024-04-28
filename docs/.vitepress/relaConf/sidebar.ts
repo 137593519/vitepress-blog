@@ -46,6 +46,10 @@ export const sidebar: DefaultTheme.Sidebar = {
           text: "热力图",
           link: "/column/web/003热力图",
         },
+        {
+          text: '虚拟列表',
+          link: '/column/web/004虚拟列表'
+        }
       ],
     },
   ],
