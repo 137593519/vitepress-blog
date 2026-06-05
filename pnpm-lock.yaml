@@ -23,6 +23,9 @@ dependencies:
   vitepress:
     specifier: ^1.0.1
     version: 1.0.1(@algolia/client-search@4.22.1)(sass@1.72.0)(search-insights@2.13.0)
+  vxe-table:
+    specifier: ^4.6.12
+    version: 4.6.12(vue@3.4.21)
 
 devDependencies:
   naive-ui:
@@ -918,6 +921,10 @@ packages:
       '@babel/runtime': 7.24.4
     dev: true
 
+  /dom-zindex@1.0.2:
+    resolution: {integrity: sha512-QceDZxPlvzhpg6e8szxNiKPUt5Y9SfFTe3nZy8og3JoPQPlAlzBzHa/lhDkhgeG3cjbKyQcuoic+wymF0o0d1Q==}
+    dev: false
+
   /earcut@2.2.4:
     resolution: {integrity: sha512-/pjZsA1b4RPHbeWZQn66SWS8nZZWLQQ23oE3Eam7aroEFGEvwKAsJfZ9ytiEMycfzXWpca4FA9QIOehf7PocBQ==}
     dev: false
@@ -1441,8 +1448,22 @@ packages:
       vue: 3.4.21
     dev: true
 
+  /vxe-table@4.6.12(vue@3.4.21):
+    resolution: {integrity: sha512-CJr+LHY5La00ur3bV4i+pUBvfqVlo2WdE9ELnEpf7/8wBdOrwe1niPoGovsAagfCdfA0Esw7F5pCN+1RjV40Ww==}
+    peerDependencies:
+      vue: ^3.2.28
+    dependencies:
+      dom-zindex: 1.0.2
+      vue: 3.4.21
+      xe-utils: 3.5.26
+    dev: false
+
   /web-worker@1.3.0:
     resolution: {integrity: sha512-BSR9wyRsy/KOValMgd5kMyr3JzpdeoR9KVId8u5GVlTTAtNChlsE4yTxeY7zMdNSyOmoKBv8NH2qeRY9Tg+IaA==}
+    dev: false
+
+  /xe-utils@3.5.26:
+    resolution: {integrity: sha512-u9R7RqWDumamToEelrCv2nVA2PBJSPPUubvmiMcuHeFxwbYeBsouoi/opejmr7AdPlSj92FifF7IKFzFrczU7w==}
     dev: false
 
   /xml-utils@1.8.0:

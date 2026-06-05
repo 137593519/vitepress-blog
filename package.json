@@ -18,7 +18,8 @@
     "leaflet.heat": "^0.2.0",
     "ol": "^9.1.0",
     "sass": "^1.72.0",
-    "vitepress": "^1.0.1"
+    "vitepress": "^1.0.1",
+    "vxe-table": "^4.6.12"
   },
   "devDependencies": {
     "naive-ui": "^2.38.1"

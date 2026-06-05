@@ -49,6 +49,10 @@ export const sidebar: DefaultTheme.Sidebar = {
         {
           text: '虚拟列表',
           link: '/column/web/004虚拟列表'
+        },
+        {
+          text: 'VxeTable',
+          link: '/column/web/005vxe-table展示树状数据'
         }
       ],
     },
