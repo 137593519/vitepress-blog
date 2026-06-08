@@ -2,7 +2,7 @@ import { DefaultTheme } from "vitepress";
 export const sidebar: DefaultTheme.Sidebar = {
   "/column/growing/": [
     {
-      text: "个人成长",
+      text: "成长历程",
       items: [
         // {
         //   text: '南北游记',
@@ -32,8 +32,12 @@ export const sidebar: DefaultTheme.Sidebar = {
   ],
   "/column/web/": [
     {
-      text: "大前端demo与案例",
+      text: "前端备忘录",
       items: [
+        {
+          text: "目录",
+          link: "/column/web/index",
+        },
         {
           text: "项目踩坑指南",
           link: "/column/web/001项目踩坑指南",

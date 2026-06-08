@@ -6,7 +6,7 @@ export const nav: DefaultTheme.NavItem[] = [
     link: '/'
   },
   {
-    text: '个人成长',
+    text: '成长历程',
     items: [
       {
         text: '大江南北游记',
@@ -23,8 +23,12 @@ export const nav: DefaultTheme.NavItem[] = [
     ]
   },
   {
-    text: '大前端',
+    text: '前端备忘',
     items: [
+      {
+        text: '前言',
+        link: '/column/web/index'
+      },
       {
         text: '项目踩坑指南',
         link: '/column/web/001项目踩坑指南'

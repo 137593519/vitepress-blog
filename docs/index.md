@@ -16,24 +16,24 @@ hero:
     # 按钮相关
   actions:
     - theme: brand
-      text: 进入主页
-      link: /column/views/guide
+      text: 前端备忘
+      link: /column/web/
     - theme: alt
-      text: 个人成长
+      text: 成长历程
       link: /column/travel/
 
 # 按钮下方的描述
 features:
   - icon: 👨‍💻
-    title: Web前端
-    details: 程序猿，国内某互联网企业搬砖，自己偶尔写写小工具（UI+前端+后端）
+    title: Web全栈
+    details: 5年+经验程序员，古法编程、Vibe Coding，同步进行。
     #link: /column/views/guide
-  - icon: 🎮
-    title: 游戏控
-    details: 热爱游戏，最喜欢下班后来一把紧张刺激的Apex
+  - icon: 📖
+    title: 终身学习
+    details: 保持好奇心，持续探索新领域，相信每一次学习都是对未来的投资
   - icon: 🧩
     title: 斜杆青年
-    details: 热爱一切，喜欢一切，享受一切，对一切饱含好奇心
+    details: 热爱一切，享受一切，对一切饱含好奇心
 
 lastUpdated: true
 ---

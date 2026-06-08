@@ -169,6 +169,7 @@ export default {
   top: var(--vp-nav-height);
   width: 100vw;
   height: calc(100vh - var(--vp-nav-height));
+  z-index:9999
 }
 
 :deep(.map_remark) {
@@ -181,11 +182,13 @@ export default {
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    position: relative;
   }
   &:hover .text {
     display: block;
   }
-  .bot {
+  .dot {
+    position: relative;
     z-index: 1;
   }
   .text {
@@ -196,7 +199,8 @@ export default {
     padding: 4px;
     border-radius: 6px;
     display: none;
-    z-index: 999;
+    position: relative;
+    z-index: 2;
   }
 }
 </style>
