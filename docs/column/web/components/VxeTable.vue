@@ -1,18 +1,20 @@
 <template>
-    <div>
-        <p>
-            <vxe-button @click="getTreeRadioEvent">获取选中</vxe-button>
-            <vxe-button @click="getTreeExpansionEvent">获取已展开</vxe-button>
-            <vxe-button @click="expandAllEvent">展开所有</vxe-button>
-            <vxe-button @click="claseExpandEvent">关闭所有</vxe-button>
-        </p>
+    <ClientOnly>
+        <div>
+            <p>
+                <vxe-button @click="getTreeRadioEvent">获取选中</vxe-button>
+                <vxe-button @click="getTreeExpansionEvent">获取已展开</vxe-button>
+                <vxe-button @click="expandAllEvent">展开所有</vxe-button>
+                <vxe-button @click="claseExpandEvent">关闭所有</vxe-button>
+            </p>
 
-        <vxe-table show-overflow border="outer" ref="xTreeRef" :show-header="false"
-            :tree-config="{ transform: true, rowField: 'id', parentField: 'parentId' }"
-            :radio-config="{ labelField: 'name' }" :data="tableData">
-            <vxe-column type="radio" tree-node></vxe-column>
-        </vxe-table>
-    </div>
+            <vxe-table show-overflow border="outer" ref="xTreeRef" :show-header="false"
+                :tree-config="{ transform: true, rowField: 'id', parentField: 'parentId' }"
+                :radio-config="{ labelField: 'name' }" :data="tableData">
+                <vxe-column type="radio" tree-node></vxe-column>
+            </vxe-table>
+        </div>
+    </ClientOnly>
 </template>
 <script setup>
 import { ref } from 'vue'
